@@ -27,6 +27,10 @@ body {
     font: var(--text);
 }
 
+img {
+    max-width: 100%;
+}
+
 h1, h2, h3{
     font: inherit;
 }
@@ -46,10 +50,6 @@ a:hover {
     max-width: 1280px;
 }
 
-.grid {
-    display: grid;
-}
-
-.grid-flow-col {
-    grid-auto-flow: column;
+main {
+    margin-top: 40px;
 }
