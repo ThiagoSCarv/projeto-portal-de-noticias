@@ -39,3 +39,17 @@ a {
 a:hover {
     color: var(--brand-color-light);
 }
+
+.container {
+    padding-inline: 32px;
+    margin-inline: auto;
+    max-width: 1280px;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+}
